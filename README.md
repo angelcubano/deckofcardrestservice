@@ -17,41 +17,41 @@ This package contanin all the interface, enum and class of the Service
 ## Examples
 
 ### Create a Deck of Card
-uri: http://localhost:8080/deck 
-method: POST
-Content-Type: application/json
+uri: http://localhost:8080/deck  
+method: POST  
+Content-Type: application/json  
 Json: "UsingStack" or "UsingList"
 
 ### Get an especif Deck of Card
-uri: http://localhost:8080/deck/{id} 
+uri: http://localhost:8080/deck/{id}  
 method: GET
 
 ### Remove an especif Deck of Card
-uri: http://localhost:8080/deck/{id} 
+uri: http://localhost:8080/deck/{id}  
 method: DELETE
 
 ### Shuffle the deck
-uri: http://localhost:8080/deck/{id}/shuffle 
+uri: http://localhost:8080/deck/{id}/shuffle  
 method: GET
 
 ### Get a first card from deck
-http://localhost:8080/deck/{id}/firstcards
+http://localhost:8080/deck/{id}/firstcards  
 method: GET
 
 ### Get a first card from deck
-http://localhost:8080/deck/{id}/lastcards
+http://localhost:8080/deck/{id}/lastcards  
 method: GET
 
 ### Reset the deck
-uri: http://localhost:8080/deck/{id}/reset 
+uri: http://localhost:8080/deck/{id}/reset  
 method: GET
 
 ### Total card in the deck
-uri: http://localhost:8080/deck/{id}/cards 
+uri: http://localhost:8080/deck/{id}/cards  
 method: GET
 
 ### Exist card in the deck
-uri: http://localhost:8080/deck/{id}/card
+uri: http://localhost:8080/deck/{id}/card  
 method: GET
 
 ### Run
