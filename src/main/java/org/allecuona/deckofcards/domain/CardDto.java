@@ -5,6 +5,8 @@ import org.allecuona.deckofcards.Ranks;
 import org.allecuona.deckofcards.Suits;
 
 /**
+ * Dto for Card
+ *
  * Created by angel on 04/03/16.
  */
 public class CardDto {
